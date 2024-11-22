@@ -1,0 +1,29 @@
+{
+  "name": "file-organization-tool",
+  "version": "1.0.0",
+  "description": "Automated File Organization Tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
+    "@shadcn/ui": "^0.0.4",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.0",
+    "neo4j-driver": "^4.3.1",
+    "spacy": "^0.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^4.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
